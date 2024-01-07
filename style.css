@@ -179,6 +179,7 @@ body {
   border-radius: 8px;
   background: #f00;
   margin-top: 30px;
+  cursor: pointer;
 }
 
 /* *** coming-soon section *** */
@@ -452,6 +453,7 @@ form button {
   font-family: Inter;
   font-size: 15px;
   font-weight: 600;
+  cursor: pointer;
 }
 
 /* footer section css */
@@ -494,14 +496,16 @@ hr{
   justify-content: center;
 }
 .social-icons img{
-  width: 50px;
+  width: 40px;
   margin-right: 20px;
   margin-bottom: 35px;
+  cursor: pointer;
+}
+.social-icons img:hover{
+  filter: opacity(80%);
 }
 .copyright{
   display: flex;
   justify-content: space-between;
 }
-.copyright-text{
-
-}
+/* Completed Assignment-1 */
