@@ -87,7 +87,7 @@ body {
 }
 .new-year-image {
   width: 52%;
-  max-width: 700px
+  max-width: 700px;
 }
 
 /* *** welcome section css *** */
@@ -190,32 +190,13 @@ body {
   gap: 50px;
   justify-content: space-between;
   margin-top: 100px;
-  
-  
-}
-.middle-round {
-  width: 380px;
-  height: 380px;
-  border-radius: 463px;
-  border: 12px solid #f00;
-  background-size: cover;
-  background-position: center;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  
 }
 
-.middle-round img{
-  width: 85%;
-  height: 85%;
-
-}
-.comingsoon-left{
+.comingsoon-left {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  width: 60%
+  width: 60%;
 }
 .left-subtitle {
   color: #f00;
@@ -232,12 +213,30 @@ body {
   text-transform: capitalize;
   padding-bottom: 18px;
 }
+
 .left-description {
   color: rgba(7, 2, 17, 0.6);
   font-family: Inter;
   font-size: 16px;
   font-weight: 400;
   line-height: 22px;
+}
+
+.middle-round {
+  width: 380px;
+  height: 380px;
+  border-radius: 463px;
+  border: 12px solid #f00;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.middle-round img {
+  width: 85%;
+  height: 85%;
 }
 
 .right-title {
@@ -255,14 +254,54 @@ body {
   line-height: 22px;
   padding-bottom: 26px;
 }
-.comingsoon-right{
+.comingsoon-right {
   display: flex;
   justify-content: end;
-  
+
   flex-direction: column;
-  padding-left: 40px
+  padding-left: 40px;
 }
-.comingsoon-right img{
+.comingsoon-right img {
   width: 60%;
+}
+
+/* *** holidya section css *** */
+
+.holiday {
+  margin-top: 100px;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: center;
+}
+.holiday-subtitle {
+  color: #070211;
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: 500;
+  padding-bottom: 14px;
+}
+.holiday-title {
+  color: #070211;
+  font-family: Merriweather;
+  font-size: 55px;
+  font-weight: 900;
+  padding-bottom: 18px;
+}
+.holiday-title span {
+  color: #f00;
+  font-family: Merriweather;
+  font-size: 55px;
+  font-weight: 900;
   
 }
+.holiday-description {
+  color: rgba(7, 2, 17, 0.6);
+  font-family: Inter;
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 22px;
+  width: 720px;
+  text-align: center;
+}
+
