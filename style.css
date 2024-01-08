@@ -123,15 +123,23 @@ body {
   font-size: 14px;
   font-weight: 400;
   line-height: 25px;
-  margin-bottom: 30px;
+  margin-bottom: 40px;
 }
 .welcome-subtitle {
-  padding-left: 20px;
+  padding: 14px 28px;
   color: #fff;
   font-family: Inter;
   font-size: 17px;
   font-weight: 700;
   text-transform: uppercase;
+  background-color: #FF0000;
+  width: fit-content;
+  border-radius: 8px;
+  transition: 0.3s;
+  cursor: pointer;
+}
+.welcome-subtitle:hover{
+  filter:opacity(80%)
 }
 .welcome-img img {
   height: 400px;
@@ -180,6 +188,10 @@ body {
   background: #f00;
   margin-top: 30px;
   cursor: pointer;
+  transition: 0.3s;
+}
+.join-btn:hover{
+  filter: opacity(80%);
 }
 
 /* *** coming-soon section *** */
